@@ -15,6 +15,7 @@
 		4ACC271F1F388E11001B9226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC271D1F388E11001B9226 /* LaunchScreen.storyboard */; };
 		4ACC272A1F388E11001B9226 /* MyObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC27291F388E11001B9226 /* MyObjectTests.m */; };
 		4ACC27351F388E11001B9226 /* MyObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC27341F388E11001B9226 /* MyObjectUITests.m */; };
+		4AF2994B1F3951D900318F79 /* LSHObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2994A1F3951D900318F79 /* LSHObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4ACC27301F388E11001B9226 /* MyObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACC27341F388E11001B9226 /* MyObjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObjectUITests.m; sourceTree = "<group>"; };
 		4ACC27361F388E11001B9226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF299491F3951D900318F79 /* LSHObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSHObject.h; sourceTree = "<group>"; };
+		4AF2994A1F3951D900318F79 /* LSHObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSHObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		4ACC27031F388E11001B9226 = {
 			isa = PBXGroup;
 			children = (
+				4AF299481F3951B500318F79 /* New Group */,
 				4ACC270E1F388E11001B9226 /* MyObject */,
 				4ACC27281F388E11001B9226 /* MyObjectTests */,
 				4ACC27331F388E11001B9226 /* MyObjectUITests */,
@@ -138,6 +142,16 @@
 				4ACC27361F388E11001B9226 /* Info.plist */,
 			);
 			path = MyObjectUITests;
+			sourceTree = "<group>";
+		};
+		4AF299481F3951B500318F79 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4AF299491F3951D900318F79 /* LSHObject.h */,
+				4AF2994A1F3951D900318F79 /* LSHObject.m */,
+			);
+			name = "New Group";
+			path = MyObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF2994B1F3951D900318F79 /* LSHObject.m in Sources */,
 				4ACC27171F388E11001B9226 /* ViewController.m in Sources */,
 				4ACC27141F388E11001B9226 /* AppDelegate.m in Sources */,
 				4ACC27111F388E11001B9226 /* main.m in Sources */,
@@ -509,6 +524,7 @@
 				4ACC273B1F388E11001B9226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ACC273C1F388E11001B9226 /* Build configuration list for PBXNativeTarget "MyObjectTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +533,7 @@
 				4ACC273E1F388E11001B9226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ACC273F1F388E11001B9226 /* Build configuration list for PBXNativeTarget "MyObjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +542,7 @@
 				4ACC27411F388E11001B9226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
